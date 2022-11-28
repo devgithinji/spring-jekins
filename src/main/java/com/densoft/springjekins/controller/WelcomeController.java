@@ -10,4 +10,10 @@ public class WelcomeController {
     public String sayHello() {
         return "hello jenkins";
     }
+
+
+    @GetMapping
+    public String sayHelloPeople() {
+        return "hello devs";
+    }
 }
